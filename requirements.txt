@@ -1,0 +1,43 @@
+# AI Text Summarizer
+
+This project is a lightweight web application that turns long text into concise summaries using an NLP summarization model.
+
+## Features
+- Paste any text or document
+- Adjust summary length with a slider
+- Summarize using the Hugging Face transformer model
+- View basic quality checks for readability, relevance, and accuracy
+- Built as a simple Streamlit app
+
+## Project GitHub
+https://github.com/maheshguntipally08-alt/ai-text-summarizer
+
+## Run locally
+
+1. Clone the repository
+2. Create and activate a virtual environment
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Start the app:
+
+```bash
+streamlit run app.py
+```
+
+## Example usage
+- Paste meeting notes or a long article
+- Choose a summary length like 50 or 100 words
+- The app generates a concise summary and quality stats
+
+## Technologies used
+- Python
+- Streamlit
+- Hugging Face Transformers
+- NLP summarization model
+
+## Notes
+This app uses a transformer-based summarization model, with a fallback rule-based summary for reliability when the model is unavailable or the document is too long.
